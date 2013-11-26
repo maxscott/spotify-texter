@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+<html>
+<head id="header">
+    <meta charset="utf-8">
+    <title>Democrazy</title>
+    <link rel="stylesheet" href="sp://import/css/adam.css">
+    <script src="jquery-latest.js"></script>
+    <script type="text/javascript" src="smoothie.js"></script>
+    <script type="text/javascript" src="start-party.js"></script>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body id="body" onload="sp = getSpotifyApi(1); mcvoltaire = sp.require('mcvoltaire'); mcvoltaire.init(); startParty();">
+    <div id="debug" class="debug">
+        Debugging section:<br />
+        Request URL: <input type="text" name="url" id="url" size="60" value="http://qwertyfest.99k.org/testReader.php?callback="/>
+        <a href="#" onclick="setUrl()">Set</a>
+    </div>
+    <div id="top_bar">
+        <ul> 
+            <li><a href="#" onclick="alert('not implemented');">Admin</a></li> 
+            <li><a href="#" onclick="alert('not implemented');">Twitter</a></li> 
+            <li><a href="index.html">Quit</a></li> 
+        </ul> 
+    </div>
+    <div id="d">
+        <section id="drop">
+            <p class="info"><img src="down-arrow.png" width="70" height="70" /><br /> Drag and drop a playlist here to add songs to the queue</p>
+        </section>
+    </div>
+    <div id="party_number">Loading...</div>
+    <div id="new_songs">New Songs</div>
+    <div id="songs">
+        <table id="songs_table">
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>Title</th>
+                    <th>Artist</th>
+                    <th>Album</th>
+                    <th>Time</th>
+                    <th>Requsted by</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody><tr></tr></tbody>          
+        </table>
+    </div>
+</body>
+</html>

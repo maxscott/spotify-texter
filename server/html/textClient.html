@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+	<link rel="stylesheet" type="text/css" href="sheet1.css" />
+	<body>
+		<div>
+			<header>
+				<h1>Mock Text Messenger</h1>
+			</header>
+			<div>
+				<form target="result_frame"  method="post" action="cgi-bin/text_request.py">
+					<table>
+						<tr>
+							<td>SmsSid:</td>
+							<td><input type="text" name="SmsSid" value="000000000000000000000000000000"/></td>
+						</tr>
+						<tr>
+							<td>AccountSid:</td>
+							<td><input type="text" name="AccountSid" value="ACd70564daad9841069076a810fe26ae06"/></td>
+						</tr>
+						<tr>
+							<td>From:</td>
+							<td><input type="text" name="From" value="WEB_CLIENT"/></td>
+						</tr>
+						<tr>
+							<td>To:</td>
+							<td><input type="text" name="To" value="14155992671"/></td>
+						</tr>
+						<tr>
+							<td>Body:</td>
+							<td><input type="text" name="Body" value="this is a message."/></td>
+						</tr>
+					</table>
+					
+					<input type="submit"/>
+					<br	/>
+				</form>
+			</div>
+			<div>
+				Result:<br />
+				<iframe name="result_frame" width=800 height=600></iframe>
+			</div>
+			<footer>
+				<p>
+					&copy; Copyright by Bobby Tables
+				</p>
+			</footer>
+		</div>
+	</body>
+</html>

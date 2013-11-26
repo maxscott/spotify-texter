@@ -1,0 +1,14 @@
+body {
+	font-family: "Helvetica";
+	background-color: #d0e4fe;
+}
+h1 {
+	color: black;
+	text-align: center;
+}
+p {
+	font-size: 20px;
+}
+input {
+	text-align:justify;
+}

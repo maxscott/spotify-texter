@@ -1,0 +1,186 @@
+.startButton
+{
+    -moz-box-shadow: inset 0px 1px 0px 0px #A60B0B;
+    -webkit-box-shadow: inset 0px 1px 0px 0px #A60B0B;
+    box-shadow: inset 0px 1px 0px 0px #A60B0B;
+    background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #E00000), color-stop(1, #E00000) );
+    background: -moz-linear-gradient( center top, #E00000 5%, #E00000 100% );
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#E00000', endColorstr='#E00000');
+    background-color: #E00000;
+    -moz-border-radius: 36px;
+    -webkit-border-radius: 36px;
+    border-radius: 36px;
+    border: 1px solid #A60B0B;
+    display: inline;
+    color: #FFFFFF;
+    font-family: "Helvetica", Arial, sans-serif;
+    font-size: 25px;
+    font-weight: lighter;
+    padding: 12px 48px;
+    text-decoration: none;
+    position: absolute;
+    top: 35%;
+}
+
+    .startButton:hover
+{
+        background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #A60B0B), color-stop(1, #A60B0B) );
+        background: -moz-linear-gradient( center top, #A60B0B 5%, #A60B0B 100% );
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#A60B0B', endColorstr='#A60B0B');
+        background-color: #A60B0B;
+        text-decoration:none;
+}
+
+    .startButton:active
+    {
+        position: absolute;
+        top: 35%;
+    }
+
+#songs_table
+{
+    min-width: 500px;
+	font-family: "Helvetica", Arial, sans-serif;
+    /*background-color: #268a16;*/
+}
+
+    #songs_table tbody tr:hover
+    {
+        background-color: #5cb811;
+    }
+
+    #songs_table thead th
+    {
+        background-color: #979797;
+        color: #111;
+        font-weight: 700;
+        text-align: left;
+    }
+
+    #songs_table tr.odd
+    {
+        background-color: #ffd800;
+    }
+
+    #songs_table tr.even
+    {
+        background-color: #313131;
+    }
+
+.debug
+{
+    color: #313131;
+    background-color: #ffd800;
+}
+
+#top_bar ul
+{
+    margin: 0;
+    padding: 5px;
+    list-style-type: none;
+    text-align: right;
+    background-color: #373737;
+}
+
+    #top_bar ul li
+    {
+        display: inline;
+    }
+
+        #top_bar ul li a
+        {
+            text-decoration: none;
+            padding: .2em 0.5em;
+            /*color: #fff;*/
+            /*background-color: #000;*/
+        }
+
+            #top_bar ul li a:hover
+            {
+                /*color: #000;*/
+                /*background-color: #fff;*/
+                color: #ffd800;
+            }
+
+#drop
+{
+    border: 3px dashed black;
+    margin-left: 5%;
+    padding: 15px;
+    background-color: white;
+    min-height: 150px;
+    max-height: 150px;
+    max-width: 240px;
+    float: left;
+    border-radius: 10% 10% 10% 10%;
+    text-align:center center;
+    font-family: "Helvetica", Arial, sans-serif;
+    /*  overflow-y: auto;*/
+}
+    #drop.hover
+    {
+        color: #ffd800;
+    }
+
+    #drop .info
+    {
+        color: #999;
+        text-align: center;
+    }
+
+    #drop ul
+    {
+        margin: 5;
+        padding: 10;
+    }
+
+    #drop li
+    {
+        border-top: 2px solid #ccc;
+        list-style: none;
+        padding: 5px;
+        font-size: 90%;
+    }
+
+        #drop li:first-child
+        {
+            border-top: 0;
+        }
+#party_number
+{
+    margin-left: 40%;
+    color: red; 
+    border: 3px solid black;
+    min-height: 150px;
+    max-height: 150px;
+    min-width: 240px;
+    max-width: 240px;
+    border-radius: 10% 10% 10% 10%;
+    padding: 15px 15px 15px 15px;
+    float: none;
+    text-align:center;
+    font-size:x-large;
+    text-align:center;
+    background: white;
+    font-family: "Helvetica", Arial, sans-serif;
+    font-size: 25px;
+    font-weight: normal;
+    font-stretch: extra-expanded;
+    position: relative;
+    top: 40%;
+    
+}
+
+#new_songs
+{
+    min-width: 100%;
+    /*max-height: 20px;*/
+    min-height: 20px;
+    background-color: #ffd800;
+    float: left;
+}
+
+#songs
+{
+    float: left;
+}
